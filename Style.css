@@ -1,0 +1,107 @@
+
+body
+{
+  margin: 0;
+  background-color: #add8e6	;
+  text-align: center;
+  font-family: 'Tahoma ';
+}
+
+top-container
+{
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container
+{
+width: 80%;
+margin: 100px auto 100px auto;
+font-size: 20px;
+text-align: left;
+
+}
+
+.degree
+{
+  position: absolute;
+  top: 2px;
+  left: 400px;
+}
+
+
+.cloud1{
+  position: absolute;
+right: 80px;
+top: 45px;
+}
+
+.cloud2{
+  position: absolute;
+top: 200px;
+left: 70px;
+}
+
+.skills
+{
+  position: relative;
+  font-size: 20px;
+  width: 50%;
+  margin: 100px auto 100px auto;
+text-align: left;
+}
+
+.Project
+{
+  font-size: 18px;
+  width: 70%;
+  margin: 100px auto 100px auto;
+text-align: left;
+}
+middle-container
+{
+  position: absolute;
+ padding-top: 10px;
+
+}
+
+.Qualification
+{
+  width:60%;
+  margin: 100px auto 100px auto;
+
+}
+
+
+p
+{
+  text-align: center;
+}
+
+  h1 {
+    font-size: 90px;
+    font-family: 'Brush Script MT', Script;
+  }
+  h2
+  {
+      font-size: 30px;
+      font-family: 'Didot';
+
+  }
+  h3
+  {
+   color: #4c6dc8;
+    font-family: 'Brush Script MT', Script;
+    font-size: 30px;
+  }
+
+  h4
+  {
+    width: 30%;
+    margin: 0 auto 0 auto;
+  }
+
+
+  hr{
+    height:2px;
+  }
