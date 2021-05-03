@@ -1,107 +1,51 @@
-
 body
 {
-  margin: 0;
-  background-color: #add8e6	;
-  text-align: center;
-  font-family: 'Tahoma ';
+  background-color: Coral;
 }
 
-top-container
+.navbar-nav ml-auto
 {
-  position: relative;
-  padding-top: 50px;
+  margin-left: 10px; margin-right: 10px;
 }
 
-.middle-container
+.goal
 {
-width: 80%;
-margin: 100px auto 100px auto;
+margin-left: 30%;
+}
+
+
+
+.container-fluid
+{
+  padding: 3% 10%;
+}
+
+#features
+{
+  padding: 3% 10%;
+
+}
+
+h1
+{
+  font-family:"monospace";
+  font-size: 3rem;
+  line-height: 1.2'
+}
+.bottom-container
+{
+
+  background-color:  black;
+}
+
+a
+{
+color: white;
+margin: 15px 20px;
+text-decoration: none;
 font-size: 20px;
-text-align: left;
-
 }
-
-.degree
+a :hover
 {
-  position: absolute;
-  top: 2px;
-  left: 400px;
+color:#AFEEEE;
 }
-
-
-.cloud1{
-  position: absolute;
-right: 80px;
-top: 45px;
-}
-
-.cloud2{
-  position: absolute;
-top: 200px;
-left: 70px;
-}
-
-.skills
-{
-  position: relative;
-  font-size: 20px;
-  width: 50%;
-  margin: 100px auto 100px auto;
-text-align: left;
-}
-
-.Project
-{
-  font-size: 18px;
-  width: 70%;
-  margin: 100px auto 100px auto;
-text-align: left;
-}
-middle-container
-{
-  position: absolute;
- padding-top: 10px;
-
-}
-
-.Qualification
-{
-  width:60%;
-  margin: 100px auto 100px auto;
-
-}
-
-
-p
-{
-  text-align: center;
-}
-
-  h1 {
-    font-size: 90px;
-    font-family: 'Brush Script MT', Script;
-  }
-  h2
-  {
-      font-size: 30px;
-      font-family: 'Didot';
-
-  }
-  h3
-  {
-   color: #4c6dc8;
-    font-family: 'Brush Script MT', Script;
-    font-size: 30px;
-  }
-
-  h4
-  {
-    width: 30%;
-    margin: 0 auto 0 auto;
-  }
-
-
-  hr{
-    height:2px;
-  }
