@@ -3,10 +3,12 @@ body
   background-color: Coral;
 }
 
+
 .navbar-nav ml-auto
 {
   margin-left: 10px; margin-right: 10px;
 }
+
 
 .goal
 {
@@ -14,29 +16,38 @@ margin-left: 30%;
 }
 
 
-
 .container-fluid
 {
   padding: 3% 10%;
 }
 
+
 #features
 {
   padding: 3% 10%;
-
 }
+
 
 h1
 {
-  font-family:"monospace";
+  color: #8b0000;
+  font-family: 'Roboto Slab', serif;
   font-size: 3rem;
   line-height: 1.2'
 }
+
+
+p{
+  color: #8b0000;
+  font-family: 'Caveat', cursive;
+}
+
+
 .bottom-container
 {
-
   background-color:  black;
 }
+
 
 a
 {
@@ -45,7 +56,13 @@ margin: 15px 20px;
 text-decoration: none;
 font-size: 20px;
 }
+
 a :hover
 {
 color:#AFEEEE;
+}
+
+.copyright
+{
+  padding-bottom: 1%;
 }
