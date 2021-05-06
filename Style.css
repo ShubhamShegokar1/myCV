@@ -62,7 +62,8 @@ a :hover
 color:#AFEEEE;
 }
 
-.copyright
+.copyright, .connect
 {
+  color: gray;
   padding-bottom: 1%;
 }
