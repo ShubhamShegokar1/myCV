@@ -9,24 +9,27 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="Style.css">
   <script src="https://kit.fontawesome.com/1b5de41ca9.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <link rel="icon" href="favicon.ico">
   </head>
 
 
 <body>
-
     <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#">
       <img src="shubham1.png" alt="Logo" style="width:80px;"> Welcome to Shubham's
       <br>
-      <p>  Work in progress.............stay tuned</p>
-    </a>
+      <marquee width="60%" direction="left" height="100px">
+      This is a sample scrolling text that has scrolls texts to left.
+      </marquee>    </a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-
 </nav>
+
+
 
 <div class="container-fluid">
 <div class="row">
@@ -42,51 +45,143 @@
 </div>
 
 
-
-<div class="boxed">
-  This text is enclosed in a box.
-</div>
-
-
 <section id="features">
 <div class="row">
 <div class="col-sm-4" >
-  <button type="button" class="btn btn-info btn-lg id=blogs-button"><i class="fas fa-blog"></i> Blogs</button>
-<p>Read blogs</p>
+  <button type="button" class="btn btn-info btn-lg" id="blogs-button"><i class="fas fa-blog"></i> Blogs</button>
+<p>Create blogs</p>
 </div>
 <div class="col-sm-4">
-  <button type="button" class="btn btn-success btn-lg news-button"><i class="far fa-newspaper"></i> Live News</button>
+  <button type="button" class="btn btn-success btn-lg" id="news-button"><i class="far fa-newspaper"></i> Live News</button>
   <p>Stay Updated</p>
 </div>
 <div class="col-sm-4">
-  <button type="button" class="btn btn-warning btn-lg twitter-button"><i class="fas fa-poll-h"></i> Trending</button>
+  <button type="button" class="btn btn-warning btn-lg" id="twitter-button"><i class="fas fa-poll-h"></i> Trending</button>
   <p>Just need to click once to see whats happening in world</p>
 </div>
 </div>
 </section>
+
+
+<script>
+    $(document).ready(function()
+    {
+      $(".blogs").hide();
+    });
+      $('#blogs-button').click(function()
+    {
+        $('.blogs').toggle("slide");
+    });
+</script>
+
+
+<script>
+    $(document).ready(function()
+    {
+      $(".twitter").hide();
+    });
+      $('#twitter-button').click(function()
+    {
+        $('.twitter').toggle("slide");
+    });
+</script>
+
+
+<script>
+    $(document).ready(function()
+    {
+      $(".news").hide();
+    });
+      $('#news-button').click(function()
+    {
+        $('.news').toggle("slide");
+    });
+</script>
+
+
+<div class="blogs"  >
+<table class="table table-dark">
+    <thead>
+      <tr>
+        <h3 scope="col">The 10 best blogging sites and platforms</h3>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <th scope="row"><a class="footer-link" href="https://www.WordPress.org">WordPress</a></th>
+        <td>Best platform for serious bloggers</td>
+      </tr>
+
+      <tr>
+        <th scope="row"><a class="footer-link" href="https://www.Blogger.com">Blogger</a></th>
+        <td>Publishing platform by Google</td>
+      </tr>
+
+      <tr>
+        <th scope="row"><a class="footer-link" href="https://www.Wix.com">Wix</a></th>
+        <td>Best blog website builder for beginners</td>
+      </tr>
+
+      <tr>
+        <th scope="row"><a class="footer-link" href="https://www.Weebly.com">Weebly</a></th>
+        <td>Plain drag and drop builder functions</td>
+      </tr>
+
+      <tr>
+        <th scope="row"><a class="footer-link" href="https://www.Medium.com">Medium</a></th>
+        <td>Simple platform for writing</td>
+      </tr>
+
+      <tr>
+        <th scope="row"><a class="footer-link" href="https://www.Tumblr.com">  Tumblr</a></th>
+        <td> Best microblogging site</td>
+      </tr>
+
+      <tr>
+        <th scope="row"><a class="footer-link" href="https://www.Postach.io">Postach</a></th>
+        <td>Blogging powered by Evernote</td>
+      </tr>
+
+      <tr>
+        <th scope="row"><a class="footer-link" href="https://www.Ghost.org">Ghost</a></th>
+        <td>  Best WordPress alternative</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<div class="twitter">
+<textarea name="name" rows="8" cols="80">Tweets Preprocessing</textarea>
+</div>
+
+
+<div class="news">
+  <textarea name="name" rows="8" cols="80">News Updating</textarea>
+</div>
 </body>
-
-
-
-
 
 
 <div class="bottom-container">
 <br> <br>
-<div class="connect">
-<center>Connect me</center>
+<div class="Connect">
+<center>Stay Connected</center>
 </div>
-
 <br>
+
+
 <center>
 <a class="footer-link" href="https://www.linkedin.com/in/shubham-shegokar-262758107">LinkedIn</a>
 <a class="footer-link" href="https://twitter.com/ShubhamShegoka5">Twitter</a>
 <a class="footer-link" href="https://www.facebook.com/shubham.shegokar.7/">Facebook</a>
 </center>
 
+
 <br>
 <div class="copyright"> <center>
 © 2021 Shubham Shegokar.</center>
-
 </div>
- </html>
+<br>
+
+</html>
