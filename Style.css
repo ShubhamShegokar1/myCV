@@ -3,7 +3,6 @@ body
   background-color: Coral;
 }
 
-
 .navbar-nav ml-auto
 {
   margin-left: 10px; margin-right: 10px;
@@ -16,7 +15,7 @@ margin-left: 30%;
 }
 
 
-.container-fluid
+.container-fluid, .blogs, .news , .twitter
 {
   padding: 3% 10%;
 }
@@ -43,6 +42,8 @@ p{
 }
 
 
+
+
 .bottom-container
 {
   background-color:  black;
@@ -57,12 +58,19 @@ text-decoration: none;
 font-size: 20px;
 }
 
+
 a :hover
 {
 color:#AFEEEE;
 }
 
-.copyright, .connect
+h3
+{
+  color: #8b0000;
+  font-family: 'Caveat', cursive;
+}
+
+.copyright, .Connect
 {
   color: gray;
   padding-bottom: 1%;
